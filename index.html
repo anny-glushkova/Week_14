@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Week_14</title>
+</head>
+
+<body>
+    <!-- переписать прошлое домашнее задание с помощью input или div -->
+    <div class="calculator">
+        <input type="number" id="first_number" placeholder="Введите первое число">
+        <input type="number" id="second_number" placeholder="Введите второе число">
+        <button onclick="alert(sum())"> + </button>
+        <button onclick="alert(subtract())"> - </button>
+        <button onclick="alert(multiply())"> * </button>
+        <button onclick="alert(divide())"> / </button>
+    </div>
+
+    <!-- замена цвета div по клику -->
+    <div class="blue" id="blue_id" onclick="yellow()"></div> 
+    <div class="red" id="red_id" onclick="green()"></div>
+    <!-- замена цвета div по клику -->
+
+    <!-- простая галерея -->
+    <div class="slider">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/14A82/production/_116301648_gettyimages-1071204136.jpg" width='300px' id="catImage">
+        <button onclick="imgNext()"> Вперёд </button>
+        <button onclick="imgBack()"> Назад </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

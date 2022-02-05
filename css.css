@@ -1,0 +1,23 @@
+
+.calculator {
+    margin-bottom: 20px;
+}
+.slider {
+    margin-top: 20px;
+}
+
+
+/* замена цвета div по клику */
+.blue, .red {
+    width: 200px;
+    height: 100px;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+/* замена цвета div по клику */
+
+
